@@ -1,43 +1,42 @@
-Ελληνική Μετάφραση του OpenCart
-===============================
+Greek Translation of OpenCart
+==============================
 
-Η παρούσα μετάφραση αφορά την έκδοση 1.5.6 του OpenCart και μόνο για catalog (όχι για το admin interface).
+This translation is for version 1.5.6 of OpenCart and for catalog only (not for the admin interface).
   
-Εγκατάσταση
+Installation
 -----------
-1. Αντιγράψτε τους φακέλους 'catalog' και 'admin' μέσα στην εγκατάσταση OpenCart που έχετε.
-2. Φροντίστε ο φάκελος να έχει - όπως και τα περιεχόμενά του - τα κατάλληλα permissions όπως αναγράφονται στο εγχειρίδιο του OpenCart.
-3. Εισέλθετε στο administration του OpenCart, μεταβείτε στο μενού System > Localization > Languages.
-4. Εισάγετε μια νέα γλώσσα με τις εξής παραμέτρους:  
-  Language Name: Greek  
-  Code: gr  
-  Locale: el_GR.UTF-8,greek  
-  Image: gr.png  
-  Directory: greek  
-  Filename: greek  
-  Status: Enabled  
-  Sort Order: 2 (ή όποιο άλλο διαθέσιμο αριθμό έχετε, αν π.χ. θα είναι μόνο τα Ελληνικά βάλτε 1)
-5. Πατήστε Save και η γλώσσα έχει εγκατασταθεί.
+1. Copy the 'catalog' and 'admin' folders into your OpenCart installation.
+2. Make sure the folder has - as well as its contents - the appropriate permissions as listed in the OpenCart manual.
+3. Enter the OpenCart administration, go to System> Localization> Languages.
+4. Enter a new language with the following parameters:
+  Language Name: Greek
+  Code: gr
+  Locale: el_GR.UTF-8, greek
+  Image: gr.png
+  Directory: greek
+  Filename: greek
+  Status: Enabled
+  Sort Order: 2 (or any other available number you have, if for example it will be only Greek put 1)
+5. Click Save and the language is installed.
 
-  Εισέλθετε κανονικά στο κατάστημά σας και αλλάξτε τη γλώσσα στα Ελληνικά από το εικονίδιο στο πάνω μέρος της οθόνης. Περιηγηθείτε στο κατάστημα και ελέγξτε ότι όλα τα κείμενα εμφανίζονται σωστά. Αφού ελέγξετε το κατάστημά σας, μπορείτε να προεπιλέξετε τα Ελληνικά σαν γλώσσα.
+  Log in normally to your store and change the language to Greek from the icon at the top of the screen. Browse the store and make sure all texts are displayed correctly. After checking your store, you can preselect Greek as the language.
 
 FAQ
 ---
-* Q: Αφού η παρούσα μετάφραση είναι μόνο για catalog, γιατί προσθέτει αρχεία στο `admin` directory;
+* Q: Since this translation is for catalog only, why add files to the `admin` directory?
 
-A: Το OpenCart 1.5.6 φαίνεται ότι για κάποια email που αποστέλλονται στον πελάτη, όπως status update της παραγγελίας, αντί να χρησιμοποιεί αρχεία από το `catalog/language/greek` ψάχνει για αρχεία στο `admin/language/greek`. Επομένως, έχω αντιγράψει όλο το `admin/language/english` από τη default εγκατάσταση στο `admin/language/greek` και μετέφρασα μόνο κάποια αρχεία που αφορούν email που πάνε στον πελάτη. Ίσως υπάρχει καλύτερος τρόπος να διορθωθεί αυτό αλλά, προς το παρόν, λειτουργεί.
+A: OpenCart 1.5.6 seems to be looking for files in `admin / language / greek` for some emails sent to the customer, such as status update of the order, instead of using files from` catalog / language / greek`. Therefore, I have copied all the `admin / language / english` from the default installation to` admin / language / greek` and translated only some files related to emails that go to the client. Maybe there is a better way to fix this but, for now, it works.
 
-* Q: Υπάρχον σχέδια για μετάφραση του administration interface;
+* Q: Are there any plans for translating the administration interface?
 
-A: Όχι. Προσωπικά το προτιμώ στα Αγγλικά οπότε δεν με ενδιαφέρει να μπω στον κόπο να το μεταφράσω. Ωστόσο, αν κάποιος ενδιαφέρεται και μπει στο κόπο, ευχαρίστως να το συμπεριλάβω στο παρόν project.
+A: No. I personally prefer it in English so I'm not interested in bothering to translate it. However, if anyone is interested and bothers, I would be happy to include it in this project.
 
-Άδεια Χρήσης
+License
 ------------
-Η παρούσα μετάφραση διέπεται από τους όρους χρήσης της άδειας  GPL v3.
+This translation is governed by the terms of use of the GPL v3 license.
 
-Το project βρίσκεται στο github στη διεύθυνση:
+The project is on github at:
 https://github.com/lathan/opencart-greek
-Οποιεσδήποτε διορθώσεις, παρατηρήσεις, σχόλια και pull requests είναι καλοδεχούμενα.
+Any corrections, remarks, comments and pull requests are welcome.
 
-
-Καλές πωλήσεις :)
+Good sales :) 
